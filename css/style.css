@@ -22,6 +22,7 @@ img {
 html,
 body {
   background: var(--mygrey);
+  height: 100%;
 }
 
 textarea {
@@ -29,9 +30,10 @@ textarea {
 }
 
 /* narbar */
-nav{
+nav {
   border-bottom: var(--mygrey) solid 1px;
 }
+
 .navbar a {
   font-size: 1.5rem;
 }
@@ -57,13 +59,17 @@ nav{
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* About Us */
-#aboutus {
-  height: 70vh;
+/* Subscribe */
+#subscribe,
+.navbar a,
+.footer, .what {
+  text-shadow: var(--mydark) 1px 1px 3px;
 }
 
 @media (max-width: 768px) {
-  #aboutus h2, #services h2 {
+
+  #aboutus h2,
+  #services h2 {
     text-align: center;
   }
 }
