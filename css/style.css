@@ -1,0 +1,69 @@
+:root {
+  --mylight: #f7f7f7;
+  --mygrey: #e0dfde;
+  --mydark: #292b2c;
+  --myactive: #f0ad4e;
+}
+
+a {
+  text-decoration: none;
+  color: var(--myactive);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--mydark);
+}
+
+img {
+  width: 100%;
+}
+
+html,
+body {
+  background: var(--mygrey);
+}
+
+textarea {
+  resize: none;
+}
+
+/* narbar */
+nav{
+  border-bottom: var(--mygrey) solid 1px;
+}
+.navbar a {
+  font-size: 1.5rem;
+}
+
+.navbar ul li .active {
+  color: var(--myactive);
+}
+
+/* showcase */
+#showcase {
+  background: url('../img/jumbotron-bg.png') no-repeat center center/cover;
+  height: 85vh;
+}
+
+.showcase-content {
+  color: var(--mylight);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* About Us */
+#aboutus {
+  height: 70vh;
+}
+
+@media (max-width: 768px) {
+  #aboutus h2, #services h2 {
+    text-align: center;
+  }
+}
