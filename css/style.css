@@ -62,7 +62,8 @@ nav {
 /* Subscribe */
 #subscribe,
 .navbar a,
-.footer, .what {
+.footer,
+.what {
   text-shadow: var(--mydark) 1px 1px 3px;
 }
 
